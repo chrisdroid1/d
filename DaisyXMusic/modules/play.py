@@ -462,7 +462,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "kaelaVC"
     usar = user
     wew = usar.id
     try:
@@ -744,7 +744,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "helper"
+        user.first_name = "KaelaVc"
     usar = user
     wew = usar.id
     try:
@@ -893,7 +893,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "KaelaVC"
     usar = user
     wew = usar.id
     try:
@@ -930,7 +930,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @DaisyXHelper2 to your Group and try again</b>",
+                        "\n\nOr manually add @KaelaVC to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
